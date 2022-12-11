@@ -1,0 +1,130 @@
+@media (min-width:300px) and (max-width:700px) {
+    header{
+        width: 100%;
+        height: 60vh;
+        background: linear-gradient(rgba(1, 1, 15, 0.877), rgba(0, 0, 100, 0.5)), url(../images/pexels-andrea-piacquadio-3755706.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    nav{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: 6vh;
+        padding: 0;
+    
+    }
+    .logo{
+        top: 25px;
+        left: 8%;
+        font-size: 2rem;
+        
+    }
+    .main-desc{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 20%;
+        left: 8%;
+        width: 70%;
+        min-width: 300px;
+        color: #f1f1f1f1;
+    }
+    .main-desc h1{
+        color: #f1f1f1f1;
+        font-size: 2rem;
+        line-height: 0px;
+    }
+    .main-desc p{
+        font-size: 18px;
+        text-align: left;
+    }
+    .main-desc button{
+        font-size: 18px;
+        width: 120px;
+        height: 40px;
+    
+    }
+    /* ************ Section Two ***************** */
+    .about-content{
+        height: auto;
+        display: flex;
+        flex-direction: column;    
+    }
+    /* ************ Section Three ***************** */
+    .event-content{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    /* ************ Section four ***************** */
+    .models-content{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .models-post{
+        width: 100%;
+        height: 55vh;
+    }
+    .product-content{
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .bgd-article{
+        height: 60vh;
+        background: linear-gradient(rgba(17, 17, 54, 0.642), rgba(0, 0, 100, 0.5)), url(../images/model5.JPG);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transform: rotateY(180deg);
+        
+    }
+    .subscrib{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        background: #0b0d2c;
+        color: #f1f1f1f1;
+    }
+    .article-card{
+        top: 10%;
+        left: 20%;
+        transform: translate(-20%, -10%);
+        display: flex;
+        width: 63%;
+        height: auto;
+        padding: 1.5rem 4rem;
+        z-index: 1;
+    }
+    .article-card h1{
+        font-size: 1.7rem;
+        font-weight: 600;
+        margin: 0px 0;
+    }
+    .article-card button{
+        width: 50px;
+        height: 50px;
+        border: none;
+        background: #f79443;
+        font-size: 18px;
+        padding: 16px;
+    }
+    .subscrib p{
+        width: 450px;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .footer-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 22px;
+    }
+}
