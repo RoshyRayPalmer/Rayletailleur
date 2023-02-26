@@ -1,0 +1,230 @@
+@media screen and (max-width:667px) {
+    body{
+        max-width: 100vw;
+    }
+    header{
+        width: 100%;
+        height: 50vh;
+        background: linear-gradient(rgba(1, 1, 15, 0.877), rgba(0, 0, 100, 0.5)), url(../images/pexels-andrea-piacquadio-3755706.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    nav{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: 6vh;
+        padding: 0;
+    
+    }
+    .logo{
+        top: 25px;
+        left: 8%;
+        font-size: 1.5rem;
+        
+    }
+    .main-desc{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 15%;
+        left: 8%;
+        width: 70%;
+        color: #f1f1f1f1;
+    }
+    .main-desc h1{
+        color: #f1f1f1f1;
+        font-size: 1.7rem;
+        line-height: 0px;
+    }
+    .main-desc p{
+        font-size: 16px;
+        text-align: left;
+        margin-top: 2px;
+    }
+    .main-desc button{
+        font-size: 18px;
+        width: 120px;
+        height: 40px;
+    
+    }
+    /* ************ Section Two ***************** */
+    .about-content{
+        height: auto;
+        display: flex;
+        flex-direction: column;    
+    }
+    .about-desc h1, .membership h1{
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-transform: capitalize;
+    }    
+ 
+    .membership button{
+        font-size: 18px;
+        width: 140px;
+        height: 45px;
+        border: 2px solid #FD841F;
+        background: transparent;
+        color: #f1f1f1f1;
+        cursor: pointer;
+    }
+    /* ************ Section Three ***************** */
+    .event-content{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .event-content h1{
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    .event-desc{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 22px;
+    }
+    .event-desc button{
+        font-size: 18px;
+        width: 160px;
+        height: 45px;
+        margin: 2rem 0;
+        color: #f1f1f1f1;
+    }
+    /* ************ Section four ***************** */
+    .models-content{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .models-post{
+        /* image bgd */
+        width: 100%;
+        height: 40vh;
+    }
+    .models-desc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 22px 22px;
+        background: #0b0d2c;
+        color: #f1f1f1f1;
+        min-width: 200px;
+    }
+    .models-desc h1{
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    .models-desc button{
+        font-size: 18px;
+        width: 160px;
+        height: 45px;
+        text-transform: capitalize;
+        margin: 22px ;
+    }
+    /* ************ Section five ***************** */
+    .product-content{
+        width: 80%;
+        display: grid;
+        padding: 22px 30px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .product h1{
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    .product p{
+        text-align: center;
+        padding: 22px;
+    }
+    
+    /* ************ Section five ***************** */
+    .bgd-article{
+        height: 60vh;
+        background: linear-gradient(rgba(17, 17, 54, 0.642), rgba(0, 0, 100, 0.5)), url(../images/model5.JPG);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transform: rotateY(180deg);
+        
+    }
+    .subscrib{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        background: #0b0d2c;
+        color: #f1f1f1f1;
+    }
+    .article-card{
+        top: 10%;
+        left: 20%;
+        transform: translate(-20%, -10%);
+        display: flex;
+        width: 70%;
+        height: auto;
+        max-height: 450px;
+        padding: 1.5rem 2rem;
+        z-index: 1;
+    }
+    .article-card h1{
+        font-size: 1.5em;
+        font-weight: 600;
+        margin: 0px 0;
+    }
+    .article-card button{
+        width: 50px;
+        height: 50px;
+        border: none;
+        background: #f79443;
+        font-size: 18px;
+        padding: 16px;
+    }
+    .subscrib h1{
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    .subscrib p{
+        width: 85%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .subs-mail-content button, .subs-mail{
+        font-size: 18px;
+        padding: 2.5px 8px;
+        background: transparent;
+        border: 1.5px solid #f1f1f1f1;
+        color: #f1f1f1f1;
+    }
+    .subs-mail-content button{
+        background: #f49445;
+        border: none;
+        padding: 4px 8px;
+        color: #000;
+        cursor: pointer;
+    
+    }
+    .footer-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 22px;
+    }
+    .ecopy{
+        color: #f1f1f1f1;
+        margin: 20px;
+        padding: none;
+    }
+}
